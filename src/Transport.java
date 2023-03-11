@@ -1,7 +1,7 @@
 public abstract class Transport {
 
-    private String modelName;
-    private int wheelsCount;
+    private final String modelName;
+    private final int wheelsCount;
 
     public Transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
@@ -14,14 +14,6 @@ public abstract class Transport {
 
     public int getWheelsCount() {
         return wheelsCount;
-    }
-
-    public void setModelName(String modelName) {
-        this.modelName = modelName;
-    }
-
-    public void setWheelsCount(int wheelsCount) {
-        this.wheelsCount = wheelsCount;
     }
 
     public void updateTyre() {

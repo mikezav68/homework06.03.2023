@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
         Car car = new Car("Car1", 4);
         Car car2 = new Car("Car2", 4);
@@ -10,6 +11,7 @@ public class Main {
         Bicycle bicycle2 = new Bicycle("Bicycle2", 2);
 
         ServiceStation station = new ServiceStation();
+
         station.check(bicycle);
         station.check(bicycle2);
         station.check(car);

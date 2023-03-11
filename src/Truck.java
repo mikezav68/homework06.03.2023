@@ -1,7 +1,9 @@
 public class Truck extends Car {
+
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
+
     public void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
